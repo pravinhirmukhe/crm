@@ -9,7 +9,8 @@
     </author>
     <content src="index.html" />
 
-    <access origin="http://solutionslog.in/crm" />
+    <!-- <access origin="http://192.168.1.2/rocrm/" /> -->
+    <allow-navigation href="http://*/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -29,4 +30,5 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
 </widget>
