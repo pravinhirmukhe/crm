@@ -29,4 +29,5 @@
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
     <!-- <gap:plugin name="cordova-plugin-whitelist" source="npm" /> -->
+    <icon src="logo.jpg" width="57" height="57" />
 </widget>
